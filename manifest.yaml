@@ -36,8 +36,8 @@ spec:
             memory: "64Mi"
             cpu: "250m"
           limits:
-            memory: "64Mi"
-            cpu: "250m"
+            memory: "128Mi"
+            cpu: "500m"
   # this is PVC directly.
   volumeClaimTemplates:
   - metadata:
